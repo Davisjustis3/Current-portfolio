@@ -179,6 +179,7 @@ p, h3 {
   border-radius: 10px;
   padding: 40px;
   gap: 20px;
+  max-width: 300px;
 }
 .portfolio-box > a {
   text-align: center;
@@ -193,6 +194,9 @@ p, h3 {
 .portfolio-img:hover {
   transform: scale(1.03);
   transition: all 300ms ease-in-out;
+}
+.key-features {
+  font-size: .9rem;
 }
 .fa-brands {
   margin-left: 10px;
